@@ -118,7 +118,7 @@ $certs = $conn->query("SELECT m.*,
                 <form method="POST">
                     <div class="form-grid">
                         <!-- HUSBAND -->
-                        <div class="section-title">🤵 Husband's Details / የባል ሰው</div>
+                        <div class="section-title">🤵 Husband's Details / የባል</div>
                         <div class="form-group">
                             <label>Husband's First Name</label>
                             <input type="text" name="h_first_name" class="form-control" required>
