@@ -175,7 +175,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <td><?php echo htmlspecialchars($row['date_of_birth']); ?></td>
                                 <td><?php echo htmlspecialchars($row['registered_date']); ?></td>
                                 <td>
-                                    <a href="print_birth.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm" target="_blank" style="padding: 5px 10px; font-size: 0.85em; display: inline-block; width: auto;"><i class="fas fa-print"></i> Print</a>
+                                    <a href="print_birth.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm" style="padding: 5px 10px; font-size: 0.85em; display: inline-block; width: auto;"><i class="fas fa-print"></i> Print</a>
                                 </td>
                             </tr>
                             <?php 
