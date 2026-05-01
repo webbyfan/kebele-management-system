@@ -103,7 +103,7 @@ $total_divorces = getCount($conn, 'divorce_certificates');
                         </thead>
                         <tbody>
                             <?php
-                            $recent = $conn->query("SELECT * FROM persons ORDER BY created_at DESC LIMIT 5");
+                            $recent = $conn->query("SELECT * FROM persons ORDER BY id DESC LIMIT 5");
                             if($recent->rowCount() > 0):
                                 while($row = $recent->fetch(PDO::FETCH_ASSOC)):
                             ?>
